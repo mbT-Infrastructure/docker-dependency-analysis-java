@@ -40,5 +40,5 @@ if [[ "$MODE" == "all" ]] || [[ "$MODE" == "crda" ]]; then
     if [[ -z "$CRDA_KEY" ]]; then
         echo "$CRDA_SNYK_TOKEN" | crda auth > /dev/null
     fi
-    crda analyse pom.xml --verbose
+    crda analyse --no-color --verbose pom.xml
 fi
