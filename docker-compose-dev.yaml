@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+
+    dependency-analysis-java:
+        container_name: dependency-analysis-java
+        build: .
+        command: crda version
