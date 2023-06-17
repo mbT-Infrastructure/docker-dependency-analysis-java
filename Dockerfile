@@ -13,7 +13,7 @@ RUN apt install -y -qq ./crda.deb && \
 
 COPY analyze.sh /usr/local/bin
 
-ENV CRDA_CONSENT_TELEMETRY="false"
+ENV TELEMETRY="false"
 ENV CRDA_KEY=""
 ENV CRDA_SNYK_TOKEN=""
 

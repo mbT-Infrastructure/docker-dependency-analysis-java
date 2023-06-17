@@ -7,8 +7,8 @@ It analyzes your Java dependencies.
 
 ## Environment variables
 
-- `CONSENT_TELEMETRY`
-    - Consent crda telemetry, default: `false`.
+- `TELEMETRY`
+    - Consent telemetry, default: `false`.
 - `CRDA_KEY`
     - Existing crda key to identify the existing user.
 - `CRDA_SNYK_TOKEN`
